@@ -1,0 +1,605 @@
+body{
+  background-color: aliceblue;
+}
+
+/* Head section */
+#doraemon-head {
+  position: absolute;
+  width: 25rem;
+  height: 25rem;
+  top: 5rem;
+  left: 20rem;
+  border-radius: 50%;
+  background-color: rgb(6, 162, 224);
+  border: 0.1rem solid black;
+}
+#doraemon-head::after {
+  content: "";
+  position: absolute;
+  width: 22rem;
+  height: 22rem;
+  top: 3rem;
+  left: 1.6rem;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.1rem solid black;
+}
+
+/* Eye Section */
+
+#doraemon-eyes {
+  position: absolute;
+  width: 4.5rem;
+  height: 6rem;
+  top: 6rem;
+  left: 27.99rem;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.1rem solid black;
+}
+#doraemon-eyes::after {
+  content: "";
+  position: absolute;
+  width: 4.5rem;
+  height: 6rem;
+  top: -0.4rem;
+  left: 4.5rem;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.1rem solid black;
+}
+#doraemon-eyes::before {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: 4.8rem;
+  left: 3rem;
+  border-radius: 59%;
+  background-color: brown;
+  border: 0.1rem solid black;
+  z-index: 1;
+}
+#doraemon-eyes2 {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 9.4rem;
+  left: 30.4rem;
+  border-radius: 59%;
+  background-color: white;
+  z-index: 6;
+}
+
+#doraemon-eyes2::after {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: -0.1rem;
+  left: 3.4rem;
+  border-radius: 59%;
+  background-color: white;
+  z-index: 6;
+}
+
+
+/* Mouth Section */
+
+#doraemon-mouth {
+  position: absolute;
+  width: 12rem;
+  height: 13rem;
+  top: 15rem;
+  left: 26.5rem;
+  border-radius: 50%;
+  background-color: brown;
+  border: 0.1rem solid black;
+  z-index: 4;
+}
+
+#doraemon-tongue {
+  position: absolute;
+  width: 4.5rem;
+  height: 6rem;
+  top: 22rem;
+  left: 32.5rem;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1rem solid black;
+  transform: rotate(48deg);
+  z-index: 10;
+}
+#doraemon-tongue::after {
+  content: "";
+  position: absolute;
+  width: 3.6rem;
+  height: 6rem;
+  top: 2.66rem;
+  left: -0.5rem;
+  border-radius: 50%;
+  background-color: red;
+  transform: rotate(50deg);
+  z-index: 7;
+}
+
+/* Face Section */
+
+#doraemon-face {
+  position: absolute;
+  width: 4.5rem;
+  height: 6rem;
+  top: 22rem;
+  left: 28rem;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1rem solid black;
+  transform: rotate(-48deg);
+  z-index: 5;
+}
+#doraemon-face::after {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 15rem;
+  top: -10.5rem;
+  left: 8.3rem;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.1rem solid black;
+  transform: rotate(-55deg);
+}
+#doraemon-face::before {
+  content: "";
+  position: absolute;
+  width: 1.5rem;
+  height: 15rem;
+  top: -7.8rem;
+  left: 10.9rem;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.1rem solid black;
+  transform: rotate(-33deg);
+
+}
+#doraemon-face1 {
+  position: absolute;
+  width: 4.5rem;
+  height: 6rem;
+  top: 12.89rem;
+  left: 23rem;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.1rem solid black;
+  transform: rotate(-70deg);
+  z-index: 5;
+}
+#doraemon-face1::after {
+  content: "";
+  position: absolute;
+  width: 4.5rem;
+  height: 6rem;
+  top: 13.5rem;
+  left: 5rem;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.1rem solid black;
+  transform: rotate(-50deg);
+  z-index: 4;
+}
+
+#doraemon-face2 {
+  position: absolute;
+  width: 2.5rem;
+  height: 12rem;
+  top: 9.5rem;
+  left: 35rem;
+  border-radius: 50%;
+  background-color: white;
+  transform: rotate(95deg);
+  z-index: 5;
+}
+
+#doraemon-face2::after {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 8rem;
+  top: 10rem;
+  left: 0.7rem;
+  border-radius: 50%;
+  background-color: white;
+  transform: rotate(-20deg);
+  z-index: 5;
+}
+#doraemon-face2::before {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 7rem;
+  top: 3rem;
+  left: -0.4rem;
+  border-radius: 50%;
+  background-color: white;
+  transform: rotate(-10deg);
+  z-index: 6;
+}
+.doraemon-face3 {
+  height: 0.1rem;
+  width: 7rem;
+  position: absolute;
+  top: 12rem;
+  left: 36rem;
+  background-color: black;
+  transform: rotate(-30deg);
+}
+.doraemon-face4 {
+  height: 0.1rem;
+  width: 7rem;
+  position: absolute;
+  top: 14.5rem;
+  left: 36.5rem;
+  background-color: black;
+  transform: rotate(-3deg);
+  z-index: 14;
+}
+.doraemon-face5 {
+  height: 0.1rem;
+  width: 7rem;
+  position: absolute;
+  top: 16.5rem;
+  left: 36.5rem;
+  background-color: black;
+  transform: rotate(15deg);
+  z-index: 14;
+}
+.doraemon-face6 {
+  height: 0.1rem;
+  width: 7rem;
+  position: absolute;
+  top: 12rem;
+  left: 22.2rem;
+  background-color: black;
+  transform: rotate(20deg);
+}
+.doraemon-face7 {
+  height: 0.1rem;
+  width: 7rem;
+  position: absolute;
+  top: 14.5rem;
+  left: 21.8rem;
+  background-color: black;
+  transform: rotate(3deg);
+  z-index: 14;
+}
+.doraemon-face8 {
+  height: 0.1rem;
+  width: 7rem;
+  position: absolute;
+  top: 17rem;
+  left: 22rem;
+  background-color: black;
+  transform: rotate(-15deg);
+  z-index: 14;
+}
+.doraemon-face9 {
+  height: 2.5rem;
+  width: 0.2rem;
+  position: absolute;
+  top: 14rem;
+  left: 32.7rem;
+  background-color: black;
+  transform: rotate(-2deg);
+  z-index: 15;
+}
+
+/* Nose Section */
+#doraemon-nose {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 11.1rem;
+  left: 31.4rem;
+  border-radius: 59%;
+  background-color: white;
+  border: 0.1rem solid black;
+  z-index: 1;
+}
+
+#doraemon-nose::after {
+  content: "";
+  position: absolute;
+  width: 1.8rem;
+  height: 2.5rem;
+  top: -3rem;
+  left: 2rem;
+  border-radius: 59%;
+  background-color: black;
+  border: 0.1rem solid black;
+  z-index: 15;
+}
+#doraemon-nose::before {
+  content: "";
+  position: absolute;
+  width: 1.8rem;
+  height: 2.5rem;
+  top: -3rem;
+  left: -1.5rem;
+  border-radius: 59%;
+  background-color: black;
+  border: 0.1rem solid black;
+  z-index: 15;
+}
+
+/* Body Section */
+
+#doraemon-body1{
+  width: 18rem;
+  height: 20rem;
+  position: absolute;
+  top: 30.5em;
+  left: 24rem;
+  background-color: rgb(6, 162, 224);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  border: 0.1rem solid black;
+  z-index: 10;
+}
+
+#doraemon-body1::after {
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 8rem;
+  top: 16rem;
+  left: -0.1rem;
+  border-radius: 59%;
+  background-color: transpt;
+  border: 0.1rem solid black;
+  transform: rotate(90deg);
+  z-index: 12;
+}
+#doraemon-body1::before {
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 8rem;
+  top: 16rem;
+  left: 12rem;
+  border-radius: 59%;
+  background-color: transparent;
+  border: 0.1rem solid black;
+  transform: rotate(90deg);
+  z-index: 8;
+}
+
+#doraemon-leg{
+  position: absolute;
+  width: 6rem;
+  height: 8rem;
+  top: 43.1rem;
+  left: 25.1rem;
+  border-radius: 59%;
+  background-color: rgb(6, 162, 224);
+  transform: rotate(90deg);
+  border-radius: 0.5rem;
+  z-index: 10;
+}
+#doraemon-leg::after {
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 6.7rem;
+  top: -9.7rem;
+  left: 0rem;
+  border-radius: 50%;
+  background-color: rgb(6, 162, 224);
+  border-radius: 0.5rem;
+  z-index: 12;
+}
+#doraemon-leg::before {
+  content: "";
+  position: absolute;
+  width: 3.6rem;
+  height: 3.6rem;
+  top: -3rem;
+  left: 4rem;
+  border-radius: 50%;
+  background-color: aliceblue;
+  border: 0.1rem solid black;
+}
+
+/* Hand Section  */
+
+
+.doremon-hand1 {
+  position: absolute;
+  width: 5.5rem;
+  height: 5.5rem;
+  top: 34rem;
+  left: 15.5rem;
+  border-radius: 59%;
+  background-color: white;
+  border: 0.3rem solid black;
+  z-index: 19;
+}
+
+.doremon-hand2 {
+  position: absolute;
+  width: 5.5rem;
+  height: 5.5rem;
+  top: 22rem;
+  left: 45rem;
+  border-radius: 59%;
+  background-color: white;
+  border: 0.3rem solid black;
+  z-index: 19;
+  transform: rotate(180deg);
+}
+
+.doremon-hand3{
+  height: 4.5rem;
+  width: 10rem;
+  position: absolute;
+  top: 28rem;
+  left: 38.5rem;
+  border-radius: 2rem;
+  background-color: rgb(6, 162, 224);
+  box-sizing: border-box;
+  transform: rotate(-44deg);
+  z-index: 1;
+   border: 0.3rem solid black;
+}
+.doremon-hand3::after{
+  content: '';
+  height: 4.5rem;
+  width: 10rem;
+  position: absolute;
+  top: -13rem;
+  right: 18rem;
+  border-radius: 2rem;
+  background-color: rgb(6, 162, 224);
+  box-sizing: border-box;
+  transform: rotate(deg);
+  z-index: 1;
+   border: 0.3rem solid black;
+}
+
+/*  Bell & Poket Section  */
+
+#doraemon-bell {
+  position: absolute;
+  width: 3.6rem;
+  height: 3.6rem;
+  top: 50.1rem;
+  left: 31.4rem;
+  border-radius: 59%;
+  background-color: aliceblue;
+  border-radius: 0.5rem;
+  z-index: 12;
+}
+#doraemon-bell::before {
+  content: "";
+  width: 1.5rem;
+  height: 19rem;
+  position: absolute;
+  top: -29.7rem;
+  left: 0.7rem;
+  background-color: red;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  border: 0.1rem solid black;
+  transform: rotate(90deg);
+  z-index: 11;
+}
+.doraemon-pocket {
+  position: absolute;
+  width: 16rem;
+  height: 16rem;
+  top: 30rem;
+  left: 25rem;
+  border-radius: 59%;
+  background-color: white;
+  border: 0.1rem solid black;
+  z-index: 10;
+}
+.doraemon-pocket::after {
+  content: "";
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  top: 5rem;
+  left: 3rem;
+  border-radius: 59%;
+  background-color: white;
+  border: 0.1rem solid black;
+  z-index: 10;
+}
+.doraemon-pocket::before {
+  content: "";
+  width: 11rem;
+  height: 5rem;
+  position: absolute;
+  top: 5rem;
+  left: 2.6rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  z-index: 11;
+}
+
+
+.doraemon-bell2 {
+  width: 10.3rem;
+  height: 0rem;
+  position: absolute;
+  top: 40rem;
+  left: 28.1rem;
+  /* border-top: 5rem solid black;  */
+  background-color: white;
+  /* border-radius: 0.5rem; */
+  box-sizing: border-box;
+  border: 0.1rem solid black;
+  z-index: 12;
+}
+.doraemon-bell2::after {
+  content: "";
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  top: -10.6rem;
+  left: 2.2rem;
+  border-radius: 59%;
+  background-color: yellow;
+  border: 0.1rem solid black;
+  z-index: 10;
+}
+.doraemon-bell2::before {
+  content: "";
+  position: absolute;
+  width: 4.7rem;
+  height: 4.2rem;
+  top: -9.9rem;
+  left: 2.3rem;
+  border-radius: 59%;
+  background-color: yellow;
+  border: 0.1rem solid black;
+  z-index: 11;
+}
+.doraemon-bell3{
+  position: absolute;
+  width: 3.7rem;
+  height: 3.5rem;
+  top: 31rem;
+  left: 31rem;
+  border-radius: 59%;
+  background-color: yellow;
+  border: 0.1rem solid black;
+  z-index: 12;
+}
+.doraemon-bell3::after {
+  content: "";
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 1rem;
+  left: 1rem;
+  border-radius: 59%;
+  background-color: red;
+  border: 0.1rem solid black;
+  z-index: 12;
+}
+
+.doraemon-bell3::before {
+  content: "";
+  width: 0rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 2rem;
+  left: 1.81rem;
+  background-color: white;
+  box-sizing: border-box;
+  border: 0.1rem solid black;
+  z-index: 12;
+}
+
